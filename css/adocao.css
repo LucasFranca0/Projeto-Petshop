@@ -1,0 +1,182 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+      }
+  
+  body {
+    height: 1200px;
+     
+  }
+  /* Cabeçalho */
+  header {
+    background-color:#04AA6D;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #0f642f;
+      }
+
+  /* Barra de navegação */
+  nav {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(1, 46, 46);
+    padding-left: 5px;
+    border-radius: 10px;
+    
+  }
+  
+  li {
+   display:inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  nav li a:hover:not(.active) {
+    background-color: #000000;
+  }
+  
+  nav .active {
+    background-color: #000000;
+  }
+  
+ /* Fim barra de navegação*/
+
+ /* Grid de produtos*/
+  
+  .container {
+    background-color: white;
+    min-height: 70vh;
+    padding: 50px;
+  }
+
+  .products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+ .card {
+  width: 22%;
+  display: inline-block;
+  margin: 1% 1%;
+  padding: 10px;
+  margin-left: 20px;
+  box-shadow: 0px 0px 3px 0px gray;
+ }
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+#img-1 {
+  background-image: url('/img/pexels-david-floyd-10842583.jpg');
+}
+
+#img-2 {
+  background-image: url('/img/pexels-helena-lopes-2253275.jpg');
+}
+
+#img-3 {
+  background-image: url('/img/pexels-ikbal-alahmad-11399447.jpg');
+}
+
+#img-4 {
+  background-image: url('/img/pexels-mao-li-11243683.jpg');
+}
+
+#img-5 {
+  background-image: url('/img/pexels-torsten-dettlaff-59523.jpg');
+}
+
+#img-6 {
+  background-image: url('/img/pexels-balbuzard-11311266.jpg');
+}
+
+#img-7 {
+  background-image: url('/img/pexels-kirsten-bühne-1521306.jpg');
+}
+
+#img-8 {
+  background-image: url('/img/pexels-poodles-doodles-1458925.jpg');
+}
+
+#img-9 {
+  background-image: url('/img/pexels-skyler-ewing-8792816.jpg');
+}
+
+#img-10 {
+  background-image: url('/img/pexels-poodles-doodles-1458916.jpg');
+}
+
+#img-11 {
+  background-image: url('/img/pexels-dids-2127433.jpg');
+}
+
+#img-12 {
+  background-image: url('/img/pexels-glenn-2664417.jpg');
+}
+
+h3 {
+  margin-bottom: 10px;
+  color:#0f642f;
+  border-left: 2px solid #0f642f;
+  padding-left: 7px;
+  font-size: 20px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #04AA6D;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.btn:hover {
+  background-color: #0f642f;
+}
+
+  footer {
+      border-top: 3px solid #0f642f;
+      background-color: #000000;
+      text-align: center;
+  }
+
+  footer p {
+    padding-top: 20px;
+    color: #0f642f;
+    font-size: 19px;
+  }
+  

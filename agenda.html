@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agenda.css">
+    <title>Petshop</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <li><a class="active" href="agenda.html">Agenda</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="adocao.html">Adoção</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="products-container">
+            <h1 id="titulo">Agendamento</h1>
+            <br>
+    <form>
+    <fieldset class="grupo">
+       <div class="campo"> 
+        <label for="nome"><strong>Nome</strong></label>
+        <input type="text" name="nome" id="nome" required>
+       </div>
+       
+       <div class="campo"> 
+        <label for="sobrenome"><strong>Sobrenome</strong></label>
+        <input type="text" name="sobrenome" id="sobrenome" required>
+       </div>
+    </fieldset>
+
+    <div class="campo" class="campo">
+        <label for="email"><strong>E-mail</strong></label>
+        <input type="email" name="mail" id="email" required>
+    </div>
+    
+    <div class="campo">
+        <label for="telefone"><strong>Telefone</strong></label>
+        <input type="tel" name="telefone" id="telefone" required>
+    </div>
+
+    <div class="campo">
+        <label for="datemin" for="datemax"><strong>Agendamento (data e hora)</strong></label>
+        <input type="date" id="date" name="date" min="2022-08-22" max="2022-12-10">
+    </div>
+       
+    <div class="campo">
+        <label for="especie"><strong>Espécie</strong></label>
+        <select id="especie">
+            <option selected disabled value="">Selecione</option>
+            <option>Gato</option>
+            <option>Cachorro</option>
+            
+        </select>
+    </div>
+        
+    <div class="campo">
+        <label><strong>Tipo de banho:</strong></label><br>
+        <label>
+             <input type="radio" name="banho" value="banho" >Banho
+        </label>
+        <label>
+             <input type="radio" name="banhotosa" value="backend">Banho e tosa
+        </label>
+        <label>
+             <input type="radio" name="tosahigienica" value="fullstack">Banho e tosa higiênica
+        </label>
+    </div>  
+    <div class="campo">
+        <br>
+        <label><strong>Mensagem:</strong></label>
+        <textarea id="mensagem" name="mensagem" ></textarea>
+    </div>   
+        <input class="btn" type="submit" value="Enviar" />
+    </form>
+        
+        </section> 
+    </main>
+    <footer>
+        <ul class="rodape">
+            <p>Redes Sociais</p>
+            <li class="insta"><a href="https:instagram.com"> <img src="/img/instagram.png" alt="instagram" width="40px" height="40px"></a></li>
+            <li class="face"><a href="https:facebook.com"><img src="/img/facebook.png" alt="facebook" width="40px" height="40px"></a></li>
+            <li class="linke"><a href="https:linkedin.com"><img src="/img/linkedin.png" alt="linkedin" width="40px" height="40px"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,210 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    list-style-type: none;
+      }
+  
+  body {
+    height: 1200px;
+     
+  }
+      
+  header {
+    background-color:#04AA6D;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #0f642f;
+    position: fixed;
+    width: 100%;
+      }
+  
+
+
+  /* Barra de navegação */
+  nav {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(1, 46, 46);
+    padding-left: 5px;
+    border-radius: 10px;
+    
+  }
+  
+  li {
+   display:inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  nav li a:hover:not(.active) {
+    background-color: #000000;
+  }
+  
+  nav .active {
+    background-color: #000000;
+  }
+  
+ /* Fim barra de navegação*/
+
+ /* conteúdo principal*/
+  .container {
+    justify-content: center;
+    height: 55%;
+  }
+  
+  .container {
+    background-image: url('/img/pexels-simona-kidrič-2607544.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .container h1 {
+      text-align: left;
+      font-size: 80px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-shadow: 2px 5px 1px#47816c;
+      margin-left: 0px;
+    }
+  
+  .container p {
+      text-align: left;
+      font-weight: bold;
+      margin-bottom: 50px;
+      padding-left: 0px;
+      margin-top: 20px;
+      width: 700px;
+  }
+
+/* fim conteúdo principal*/
+
+  section {
+    height: 600px;
+    background:#04AA6D;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+
+  section img {
+    border-radius: 10px;
+  }
+
+  .about-team h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .about-team {
+  
+    padding: 40px;
+    box-shadow: 0px 0px 4px 0px rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+
+  .container-pet {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .pets-box1{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/pexels-poodles-doodles-1458916.jpg);
+    box-shadow: 2px 2px 3px 2px black;
+
+  }
+  
+  .pets-box2{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/pexels-elina-volkova-8343328.jpg);
+    box-shadow: 2px 2px 3px 2px black;
+    margin:0 35px;
+  }
+  
+  .pets-box3{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/pexels-chevanon-photography-1108099.jpg);
+    box-shadow: 2px 2px 3px 2px black;
+  }
+  
+  
+  .pets-box4{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/pexels-ranielle-montanini-12499221.jpg);
+    box-shadow: 2px 2px 3px 2px black;
+  }
+  
+  .pets-box5{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/pexels-glenn-2664417.jpg);
+    box-shadow: 2px 2px 3px 2px black;
+    margin:0 35px;
+  }
+  
+  .pets-box6{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/pexels-charles-1851164.jpg);
+    box-shadow: 2px 2px 3px 2px black;
+  }
+
+
+  footer {
+    border-top: 3px solid #0f642f;
+    background-color: #000000;
+    text-align: center;
+}
+
+footer p {
+  padding-top: 20px;
+  color: #0f642f;
+  font-size: 19px;
+}
+
+
+
+
+  
